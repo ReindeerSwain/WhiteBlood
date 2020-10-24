@@ -52,13 +52,13 @@ int Out()
 	
 	
 	{if (x==2002,y==9,z==26)
-	printf ("让我们看看今天是谁的生日？是你啊！生日快乐！\n\n");
+	printf ("\n\n\n让我们看看今天是谁的生日？是你啊！生日快乐！\n\n");
 	
 	
 	else if (y==11,z==30)
-	printf ("这是谁的生日啊？\n\n");
+	printf ("\n\n\n这是谁的生日啊？\n\n");
 	
-	else printf("真是平淡的一天呢。\n\n");} 
+	else printf("\n\n\n真是平淡的一天呢。\n\n");} 
 	{if (x==2001,y==11,z==24)
 	printf ("该死！\n\n\n\n");
 	}
