@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <iostream>
 
@@ -16,7 +15,7 @@ bool opt = true;
 while(opt == true)
 {
 	std::cout<<"\n\t\t*----------*\n";
-	std::cout<<"\n\t\t*1.输入生日*\n";
+	std::cout<<"\n\t\t*1.输入日期*\n";
 	std::cout<<"\n\t\t*2.退    出*\n";
 	std::cout<<"\n\t\t*请输入1或2*\n";
 	std::cout<<"\n\t\t*----------*\n";
@@ -27,7 +26,7 @@ while(opt == true)
 	
 	switch (x){
 	case '1':
-		std::cout<<"\n\t\t请以x年x月x日的格式输入你的生日\n";
+		std::cout<<"\n\t\t请以x年x月x日的格式输入日期\n";
 		opt = Out();
 		break;
 		
@@ -45,14 +44,14 @@ int Out()
 
 {
 		int x,y,z;
-	printf("请输入你的生日：");
+	printf("请输入日期：");
 	scanf("%d年%d月%d日",&x,&y,&z);
 
 
 	
 	
 	{if (x>=2002,y==9,z==26)
-	printf ("\n\n\n让我们看看今天是谁的生日？是你啊！生日快乐！\n\n");
+	printf ("\n\n\n让我们看看今天是什么日子啊？是你的生日啊！生日快乐！\n\n");
 	else if (y==5,z==1)
 	printf ("\n\n\n好诶！劳动节快乐！！\n\n");
 		else if (y==1,z==1)
