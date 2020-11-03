@@ -15,4 +15,5 @@ int main()
 	printf("×ª»»ÎªÉãÊÏ¶È£º%.1f\n",cel);
 	system("pause");
 	return 0;
+	
 }
