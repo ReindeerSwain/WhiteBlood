@@ -1,4 +1,3 @@
-//引用了基姆拉尔森计算公式 
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -42,7 +41,8 @@ int main()
 	
 	printf(" , 20%.2d.\n",year);
 	
-	
+	//在这里引用了基姆拉尔森计算公式 
+	//令1月为13月，同时2月为14月 
 	if((month == 1)||(month == 2)){
 		month += 12;
 		year--;
