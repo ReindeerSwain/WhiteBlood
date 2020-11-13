@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
+#include <windows.h> 
 
 void Menu();
 int  Out();
@@ -36,12 +37,11 @@ while(opt == true)
 		break;
 	}
 }
+
 std::cout<<"\n\t\t菜单已退出！\n";
 system("pause");
 }
 int Out()
-
-
 {
 		int x,y,z;
 	printf("请输入日期：");
@@ -52,23 +52,22 @@ int Out()
 	
 	{if (x>=2002&&y==9&&z==26)
 	printf ("\n\n\n让我们看看今天是什么日子啊？是你的生日啊！生日快乐！\n\n");
-	else if (y==5,z==1)
-	printf ("\n\n\n好诶！劳动节快乐！！\n\n");
-		else if (y==1,z==1)
-	printf ("\n\n\n新的一年！！一定要快乐！！\n\n");
-		else if (y==10,z==31)
-	printf ("\n\n\n万圣节到了！！！\n\n");
-		else if (y==12,z==25)
-	printf ("\n\n\n圣诞快乐！！收到礼物了吗？\n\n");
+	else if (y==5&&z==1)
+	{printf ("\n\n\n好诶！劳动节快乐！！\n\n");}
 	
-	else if (x>=2001,y==11,z==30)
+	
+		else if (y==10&&z==31)
+	{printf ("\n\n\n万圣节到了！！！\n\n");}
+		else if (y==12&&z==25)
+	{printf ("\n\n\n圣诞快乐！！收到礼物了吗？\n\n");}
+	
+	else if (x>=2001&&y==11&&z==30)
 	printf ("\n\n\n一个发际线逐渐后移的可怜人的生日。。。\n\n");
 	
 	else printf("\n\n\n真是平淡的一天呢。\n\n");} 
-	{if (x>=2001,y==11,z==24)
+	{if (x>=2001&&y==11&&z==24)
 	printf ("该死！\n\n\n\n");
 	}
-
 
 
 }
