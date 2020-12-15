@@ -10,13 +10,13 @@ int main(){
 	  a[i] = getchar();
 	
 	
-	
 	for(p = &a[0];p < &a[9];p++){
 	
 	  if((*p & 0b10000000)&&(*(p+1)) & 0b10000000 ){
 	    q=&a[i];
-	    printf("车牌中有汉字，汉字为：%c%c\n",a[0],a[1]);
-	    printf("该汉字的GBK码为：0x%x%x\n",a[0],a[1]);
+	    printf("车牌中有汉字，汉字为：%c%c\n",*p,*(p+1));
+	    printf("该汉字的GBK码为：0x%x%x\n",*p,*(p+1));
+	    
 	    break;}
 	  else
 	   {
