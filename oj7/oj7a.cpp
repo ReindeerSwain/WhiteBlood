@@ -40,5 +40,4 @@ int main(void){
 
 	for(i=0;i<sum;i++)
 	  printf("%d",a[i]);
-
 }
