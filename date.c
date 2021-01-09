@@ -61,7 +61,6 @@ int main()
 		case  7:printf("Sunday\n"); break; 
 	}
 
-	
 	system("pause");
 	return 0;
  } 
