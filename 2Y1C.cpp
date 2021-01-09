@@ -25,5 +25,5 @@ float a, b, c, d, m, n, x, y;
 	y = (c*m - a*n)/(b*c - a*d);
 	printf("x=%f y=%f\n",x,y);
 	system("pause");
-	return 0;
+
 }
